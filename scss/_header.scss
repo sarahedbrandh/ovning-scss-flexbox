@@ -1,0 +1,29 @@
+/* ======= HEADER ======= */
+
+header {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $primary-color;
+  position: relative;
+  background-color: $septinary-color;
+  & :after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/bath-ducks-bathing-bathroom-226597.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  text-shadow: 1px 1px 1px $quinary-color;
+}
